@@ -8,8 +8,8 @@ declared-services:
     plan: standard
 applications:
 - disk_quota: 1024M
-  host: talent-manager
-  name: talent-manager
+  host: recruitapp
+  name: recruitapp
   path: ./webStarterApp.war
   instances: 1
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
