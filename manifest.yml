@@ -10,10 +10,10 @@ applications:
 - disk_quota: 1024M
   host: recruitapp
   name: recruitapp
-  path: ./webStarterApp.war
+  path: ./output/webStarterApp.war
   instances: 1
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
-  memory: 380M
+  memory: 512M
   services:
     - talent-manager-db
     - personality-insights-talent-manager
