@@ -13,7 +13,7 @@ applications:
   path: ./webStarterApp.war
   instances: 1
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
-  memory: 256M
+  memory: 380M
   services:
     - talent-manager-db
     - personality-insights-talent-manager
