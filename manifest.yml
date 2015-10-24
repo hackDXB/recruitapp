@@ -17,3 +17,4 @@ applications:
   services:
     - talent-manager-db
     - personality-insights-talent-manager
+    - Monitoring and Analytics-2a
